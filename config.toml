@@ -1,0 +1,23 @@
+# End your baseURL with a `/` trailing slash, e.g. `https://example.com/`.
+baseURL = "https://azuresnacks.azurewebsites.net/"
+
+title = "Svelte Snacks"
+languageCode = "en-us"
+theme = "codelabs"
+
+[params]
+  homeTitle = "Do more with Svelte!"
+  homeDescription = """
+**Svelte Snacks** are quick, step-by-step guides to doing amazing things with [Svelte](https://svelte.dev). 
+
+This site is open source and open to contributions from the community, if you have a knack for writing and sharing your knowledge, you can [read our guide](#) to get started.
+
+If you'd like to see a tutorial written on a specific topic, [let us know](#).
+"""
+  footer = "<a href=\"https://github.com/snackexchange/sveltesnacks\">❤ Source code</a>"
+  feedbackLink = "mailto:mail@bjk.fyi"
+  [params.categoryColors]
+    web = "#1A73E8"
+    server = "#E37400"
+    security = "#5F6368"
+    irc = "#FFAA00"
